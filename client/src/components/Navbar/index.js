@@ -36,6 +36,9 @@ function Navbar() {
               Log In 
             </Link>
           </li>
+          <Link className="navbar-brand text-light coolFont font-size" to="/">
+        D'Pick-Up of Soccer
+      </Link>
           
          
         
