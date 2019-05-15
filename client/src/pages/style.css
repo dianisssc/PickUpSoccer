@@ -1,0 +1,40 @@
+.coolFont{
+
+font-family: 'Play', sans-serif;
+
+}
+.coolColor{
+    background-image: linear-gradient(silver, white)
+}
+
+.profile-table{
+    width: 100%; 
+}
+
+#resTable{
+    padding: 10px; 
+}
+#profileSearch{
+    position: relative;
+    bottom: 142%;
+    left: 32%;
+}
+#imageDiv{
+    width:100%;
+}
+.profile-image{
+    border-radius: 50%;
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.results{
+    margin-top: 25px;
+}
+.h3{
+    font-family: 'Poppins', sans-serif;
+}
+#location-instruction{
+    font-style: italic
+}

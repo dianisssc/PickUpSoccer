@@ -1,0 +1,44 @@
+.hero {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  opacity: .4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+}
+#coolColor  {
+  background-image: linear-gradient(#060d2f, #43748a,#0f1f29)
+}
+
+.jumbotron{
+  height: 50%;
+  border-radius:15px; 
+}
+
+.hero * {
+  position: relative;
+  height:50%;
+  z-index: 3;
+}
+
+.hero h1, .hero h2 {
+  color: white;
+  
+}
+
+.hero h1 {
+  font-size: 60px;
+  padding-top: 140px;
+  margin-top: 0;
+}
+

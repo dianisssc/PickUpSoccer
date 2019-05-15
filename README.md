@@ -7,3 +7,4 @@
 ```javascript
 var app = {}
 ```
+https://media.giphy.com/media/qp61kl8rdZwuQ/giphy.gif

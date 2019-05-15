@@ -1,20 +1,31 @@
 import axios from "axios";
 
+
 export default {
-  // Gets all books
-  getBooks: function() {
-    return axios.get("/api/books");
+  getProfiles: function(data) {
+    return axios.post('/api/profiles/getProfiles', data);
+ },
+
+ getModalProfile: function(id){
+   console.log("id showing", id)
+   return axios.get("/api/profiles/" + id);
+ },
+ getProfile: function(email){
+   return axios.get("api/profiles/" + email)
+ },
+ login: function(data){
+   return axios.post("/api/profiles", data); 
+ },
+  
+  deleteProfile: function(id) {
+    return axios.delete("/api/profiles/deleteProfile/" + id);
   },
-  // Gets the book with the given id
-  getBook: function(id) {
-    return axios.get("/api/books/" + id);
+
+  saveProfile: function(data) {
+   
+    return axios.post("/api/profiles/saveProfiles", data);
   },
-  // Deletes the book with the given id
-  deleteBook: function(id) {
-    return axios.delete("/api/books/" + id);
-  },
-  // Saves a book to the database
-  saveBook: function(bookData) {
-    return axios.post("/api/books", bookData);
+  updateProfile: function(id){
+    return axios.post("/api/profiles/updateProfile/" +id)
   }
 };

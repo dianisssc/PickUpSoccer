@@ -1,0 +1,41 @@
+form.search {
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+form.search button[type="submit"] {
+  float: right;
+  margin-top: 10px;
+}
+#instrument-input{
+  width: 50%;
+  position: relative;
+  bottom: 400%;
+}
+#style-input{
+  width: 50%;
+  position: relative;
+  bottom: 400%;
+}
+#img-component{
+  border-radius: 25px;
+}
+#gender-input{
+  width: 50%;
+  position: relative;
+  bottom: 400%;
+}
+#location-input{
+  width: 50%;
+  position: relative;
+  bottom: 400%;
+  left: 25%;
+  height: 40px; 
+}
+h1{
+  position:relative;
+  bottom:350%;
+}
+#queryForm{
+  margin-top:10px; 
+}

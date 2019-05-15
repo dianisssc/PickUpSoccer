@@ -1,0 +1,29 @@
+nav.navbar.navbar-default {
+  margin-bottom: 0;
+}
+.coolFont{
+
+  font-family: 'Play', sans-serif;
+  
+  }
+  #li{
+    color: whitesmoke;
+  }
+  #header{
+    
+    position: relative;
+    left: 20%;
+  }
+  #headerSecondary{
+    position: relative;
+    left: 23%;
+    opacity: 0.5;
+  }
+  .aListBackground{
+    background: #191a1b
+  }
+  .poppins{
+  font-family: 'Poppins', sans-serif;}
+  .font-size{
+    font-size: xx-large;
+  }
