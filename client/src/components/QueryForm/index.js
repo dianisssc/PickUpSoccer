@@ -49,7 +49,6 @@ const QueryForm = ({ handleInputChange }) => {
       <div class="form-group">
         <label for="exampleInputEmail1"></label>
         <input type="text" class="form-control"  id="location-input"aria-describedby="emailHelp"onChange={handleInputChange} placeholder="Enter a City and State"/>
-       
       </div>
    
       </form>

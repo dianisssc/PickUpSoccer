@@ -78,8 +78,8 @@ class MyAccount extends Component {
                                 <li className="list-group-item"><strong>Position: </strong>{position}</li>
                                 <li className="list-group-item"><strong>Style: </strong>{style} </li>
                                 <li className="list-group-item"><strong>Experience: </strong>{experience}</li>
-                                <li className="list-group-item "><strong>Avaiable for Sessions/Gigs: </strong>{sessions}</li>
-                                <li className="list-group-item "><strong>Contact: </strong>{contact}</li>
+                                <li className="list-group-item"><strong>Avaiable for Sessions/Gigs: </strong>{sessions}</li>
+                                <li className="list-group-item"><strong>Contact: </strong>{contact}</li>
                                 <li className="list-group-item"><strong>About: </strong>{about}</li>}
                             </ul> 
                    

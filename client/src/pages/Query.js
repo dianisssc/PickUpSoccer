@@ -24,9 +24,6 @@ const img08 ="https://static1.squarespace.com/static/56c86be51bbee09ef65090c5/t/
 const imgArr = [img01,img02,img03,img04,img05,img06,img07,img08]
 const pickedImage = imgArr[Math.floor(Math.random()*imgArr.length)];
 
-
-
-
 class Query extends Component {
     state = {
         profiles: null,
@@ -58,15 +55,14 @@ class Query extends Component {
 
         })
             .then(res => {
-                //if(position === positionKey && style === styleKey){
+            //if(position === positionKey && style === styleKey){
 
                 this.setState({ profiles: res.data })
-                // }
+            
             }).catch(err => console.log(err));
     };
 
-    //create on click for get profile 
-    //grab the id of that field 
+    //create on click for get profile,grab the id of that field
     profileModal = (e, id) => {
         e.preventDefault();
         API.getModalProfile(id).then(res => {
@@ -140,7 +136,7 @@ class Query extends Component {
                                         <li className="list-group-item bg-dark">links: {profileDetail.links}</li>
                                         <li className="list-group-item bg-dark">Age: {profileDetail.age}</li>
                                         <li className="list-group-item bg-dark">Role: {profileDetail.role}</li>
-                                        <li className="list-group-item bg-dark">position: {profileDetail.position}</li>
+                                        <li className="list-group-item bg-dark">Position: {profileDetail.position}</li>
                                         <li className="list-group-item bg-dark">Style: {profileDetail.style}</li>
                                         <li className="list-group-item bg-dark">Avaliale for Sessions or Gigs: {profileDetail.sessions}</li>
                                         <li className="list-group-item bg-dark">Experience: {profileDetail.experience}</li>
@@ -178,9 +174,6 @@ class Query extends Component {
                                 >Search</button>
                             </Col>
 
-
-
-
                         </Row>
                   </Hero>
                     <Row>
@@ -195,7 +188,7 @@ class Query extends Component {
                                         <tr>
                                             <th scope="col">Name</th>
                                             <th scope="col">Location</th>
-                                            <th scope="col">position</th>
+                                            <th scope="col">Position</th>
                                             <th scope="col">Style</th>
                                             <th scope="col">Action</th>
                                         </tr>

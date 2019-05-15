@@ -4,8 +4,6 @@ import CreateProfile from "../../pages/CreateProfile"
 
 //import "./style.css";
 
-
-
 function CreateProfileBtn(props) {
   return (
   <button onClick={props.onClick} className="btn btn-success" >

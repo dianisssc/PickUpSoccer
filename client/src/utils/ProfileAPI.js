@@ -2,11 +2,11 @@
 //     {
 //         name: "Dianis Carbajal",
 //         location: "Orlando FL",
-//         image: "../../public../images/practice.jpg",
-//         links: "facebook.com/detoura",
+//         image: "../../public../images/URU-1.jpg",
+//         links: "instagram/dianisssc",
 //         age: 26,
-//         instrument: "Midfielder",
-//         style: "Metal",
+//         position: "Midfielder",
+//         style: "XL",
 //         experience: "15 years",
 //         about:"watch the ball not my feet"
 //     };

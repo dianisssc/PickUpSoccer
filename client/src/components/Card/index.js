@@ -21,8 +21,8 @@ function Card(props) {
         <li className="list-group-item">Position: {props.poisition}</li>
         <li className="list-group-item">Style:{props.style} </li>
         <li className="list-group-item">Experience: {props.experience}</li>
-        <li className="list-group-item ">Avaiable for Season: {props.season}</li>
-        <li className="list-group-item ">Contact: {props.contact}</li>
+        <li className="list-group-item">Avaiable for Season: {props.season}</li>
+        <li className="list-group-item">Contact: {props.contact}</li>
         <li className="list-group-item">About: {props.about}</li>
       </ul>
       <div className="card-body">

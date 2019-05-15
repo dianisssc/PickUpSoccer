@@ -19,6 +19,7 @@ function Navbar() {
               Create a Profile
             </Link>
           </li>
+          
           <li className="nav-item poppins">
             <Link
               to="/query"

@@ -72,7 +72,7 @@ class Login extends Component {
                 <Container>
                 <form>
                         <div class="form-group text-white">
-                            <label for="exampleFormControlInput1">Enter Email</label>
+                            <label for="exampleFormControlInput1">Email Address</label>
                             <input type="email" 
                                     class="form-control" 
                                     id="exampleFormControlInput1" 

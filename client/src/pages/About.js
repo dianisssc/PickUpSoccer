@@ -5,7 +5,6 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import "./style.css"
 
-
 function About() {
   return (
     <div>

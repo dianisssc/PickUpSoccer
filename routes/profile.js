@@ -33,11 +33,11 @@ router.post('/', (req, res) => {
    });
   });
 
-//update a profile 
+//Update a profile 
 router.post("/updateProfile/:id", function (req, res) {
     console.log("CHECK THIS OUT",req.body)
     Profile.find({_id:req.body.id}).then((profile) => {
-        console.log("profile is here now update it", profile)
+        console.log("profile is now update it", profile)
         res.send(profile);
     })
       .then(() => {
@@ -48,8 +48,6 @@ router.post("/updateProfile/:id", function (req, res) {
         
       })
   });
-
-
 
 
 router.post('/saveProfiles', (req, res) => {
@@ -69,8 +67,7 @@ router.post('/saveProfiles', (req, res) => {
     }).catch(err => res.status(422).json(err));
 });
 
-
-//delete 
+//Delete 
 router.delete("/deleteProfile/:id", function (req, res) {
 
     console.log('delete route triggered')

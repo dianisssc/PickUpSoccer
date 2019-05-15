@@ -7,8 +7,6 @@
 // import Col from "../components/Col"
 // import Container from "../components/Container";
 
-
-
 // class Discover extends Component {
 //   state = {
 //     query: null,

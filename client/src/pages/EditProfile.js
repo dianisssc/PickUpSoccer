@@ -19,7 +19,7 @@ class EditProfile extends Component {
         links: "",
         gender: "",
         age: "",
-        instrument: "",
+        position: "",
         style: "",
         experience: "",
         sessions: "", 
@@ -54,7 +54,7 @@ class EditProfile extends Component {
     //         links: this.state.links,
     //         age: this.state.age,
     //         role: this.state.role, 
-    //         instrument: this.state.instrument,
+    //         position: this.state.position,
     //         style: this.state.style,
     //         experience: this.state.experience,
     //         sessions: this.state.sessions, 
@@ -62,7 +62,7 @@ class EditProfile extends Component {
     //         about: this.state.about
     //     })
     //     .then(res => {
-    //         //if(instrument === instrumentKey && style === styleKey){
+    //         //if(position === positionKey && style === styleKey){
 
     //         this.setState({ profiles: res.data })
     //         // }
@@ -94,7 +94,7 @@ class EditProfile extends Component {
             links: this.state.links,
             age: this.state.age,
             role: this.state.role, 
-            instrument: this.state.instrument,
+            position: this.state.position,
             style: this.state.style,
             experience: this.state.experience,
             sessions: this.state.sessions, 
@@ -106,7 +106,7 @@ class EditProfile extends Component {
                  this.setState({ profileDetail: res.data })
                 })
             .catch(err => console.log(err));
-            alert("Profile Updated!")
+            alert("Profile has been updated!")
             //this.props.history.push("/")
     };
 
@@ -127,7 +127,7 @@ class EditProfile extends Component {
 
 
     render() {
-        const{email,password,name,location,gender,links, image,errors,instrument,style,age,experience, sessions, contact, about}=this.state;
+        const{email,password,name,location,gender,links, image,errors,position,style,age,experience, sessions, contact, about}=this.state;
         return (
             <div>
 
@@ -212,7 +212,7 @@ class EditProfile extends Component {
                                 {/*Links Input */}
                                 <div className="form-group">
                                     <label for="exampleFormControlInput1">Links to your social media!</label>
-                                    <p id="location-instruction">Time to showcase your interest in the game! Drop some links to social media to connect!</p>
+                                    <p id="location-instruction">Time to connect your interest in the game! Drop some links to social media to connect!</p>
                                     <input type="text"
                                         value={links}
                                         name="links"
@@ -232,12 +232,12 @@ class EditProfile extends Component {
                                         id="exampleFormControlInput1"
                                         placeholder={this.state.profileDetail.age} />
                                 </div>
-                                {/*Instrument Input */}
+                                {/*Position Input */}
                                 <div className="form-group">
                                     <label for="exampleFormControlSelect1">What poisition do you play?</label>
-                                    <select value={this.state.instrument}
-                                        name="instrument"
-                                        onChange={this.handleInputChange} className="form-control" id="exampleFormControlSelect1" placeholder={this.state.profileDetail.instrument}>
+                                    <select value={this.state.position}
+                                        name="position"
+                                        onChange={this.handleInputChange} className="form-control" id="exampleFormControlSelect1" placeholder={this.state.profileDetail.position}>
                                         <option>Select an position</option>
                                         <option>Goalie</option>
                                         <option>Defense</option>
@@ -322,6 +322,6 @@ class EditProfile extends Component {
 
             </div>
         )
-    }
+    };
 };
 export default EditProfile;

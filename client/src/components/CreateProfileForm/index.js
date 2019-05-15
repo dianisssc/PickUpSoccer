@@ -11,13 +11,13 @@ function CreateProfileForm(props) {
     {/*Name Input */}
     <div className="form-group" id="poppins">
       <label for="exampleFormControlInput1">Name</label>
-      <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Name Here" />
+      <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Full Name Here" />
     </div>
 
      {/*Location Input */}
     <div className="form-group">
       <label for="exampleFormControlInput1">Location</label>
-      <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Where Are You Located?" />
+      <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Where Are You Currently Located?" />
     </div>
 
     {/*Image Input */}
@@ -42,7 +42,7 @@ function CreateProfileForm(props) {
 
       {/*Position Input */}
     <div className="form-group">
-      <label for="exampleFormControlSelect1">What position do you play?</label>
+      <label for="exampleFormControlSelect1">What position do you normally play?</label>
       <select className="form-control" id="exampleFormControlSelect1" placeholder="Select One">
         <option>Goalie</option>
         <option>Defense</option>
