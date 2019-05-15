@@ -1,21 +1,22 @@
 # Pick Up Soccer
-It's an application that 
+It's to help new soccer lovers in the area connect with bored local soccer lovers. To build a quick pick up team around the Orlando area available at the moment looking to play. As well as, their upcoming tournments and events that can possibly be the team you created when randomly picking your team one of these nights!
 
 ## Application 
 
-`npm start`
+`Allows users to Create, Edit, or Delete their account at anytime`
+
+`User will have access to see the player profile before choosing to connect with them for a team member`
+
+`Each map location will have a notification with how many players wanting to play at that certain location to simplify user on picking a location that night`
+
+`helps user stay updated with the latest event's going on in their social media`
 
 ```javascript
-Using MongoDB
+Get yourself a good pick up soccer squad!
 ```
 ![Alt Text](https://i.imgur.com/IlJ803E.gif)
-<<<<<<< HEAD
 
-# Heroku Deployed site with MongoDB
+# Heroku Deployed site with MongoDB  
 
 * 
 
-
-
-=======
->>>>>>> d298720f34b605aa0a957c5e4207a40aa1bc8874
