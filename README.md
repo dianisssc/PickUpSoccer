@@ -1,7 +1,11 @@
 # Pick Up Soccer
 It's to help new soccer lovers in the area connect with bored local soccer lovers. To build a quick pick up team around the Orlando area available at the moment looking to play. As well as, their upcoming tournments and events that can possibly be the team you created when randomly picking your team one of these nights!
 
+<<<<<<< HEAD
 ## Users ability
+=======
+## Users Ability
+>>>>>>> d03356395cea30beeb54a2a272a7a0612b68a543
 
 `Allows users to Create, Edit, or Delete their account at anytime`
 
@@ -19,6 +23,9 @@ Get yourself a good pick up soccer squad!
 # Heroku Deployed site with MongoDB  
 
 * 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> d03356395cea30beeb54a2a272a7a0612b68a543
