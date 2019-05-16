@@ -8,7 +8,7 @@ function Navbar() {
      
   <div>
     <ul className="navbar-nav">
-    
+      
     <li className="nav-item poppins">
        <Link
          to="/socialupdates"
