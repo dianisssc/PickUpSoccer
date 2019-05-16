@@ -72,14 +72,14 @@ class Login extends Component {
                 <Container>
                 <form>
                         <div class="form-group text-white">
-                            <label for="exampleFormControlInput1">Email Address</label>
+                            <label for="exampleFormControlInput1">Player Profile Email Address</label>
                             <input type="email" 
                                     class="form-control" 
                                     id="exampleFormControlInput1" 
                                     name ="email"
                                     value={this.state.email}
                                     onChange={this.handleInputChange}
-                                    placeholder="name@example.com" />
+                                    placeholder="yourcurrent@email.com" />
                         </div>
                         <div class="form-group text-white">
                             <label for="exampleFormControlInput1">Enter Password</label>
@@ -89,14 +89,15 @@ class Login extends Component {
                                     id="exampleFormControlInput1" 
                                     value= {this.state.password}
                                     onChange={this.handleInputChange}
-                                    placeholder="Enter Password" />
+                                    placeholder="PASSWORD" />
                         </div>
                         <button
                             id="login"
                             className="btn btn-info"
                           onClick={this.handleFormSubmit}
                             
-                        >Log In</button>
+                        >Log In
+                        </button>
 
                     </form>
                 </Container>
