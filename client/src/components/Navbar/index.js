@@ -7,7 +7,7 @@ function Navbar() {
   <nav className="navbar navbar-expand ListBackground coolFont">
      
   <div>
-    <ul className="navbar-nav">
+    <ul className="navbar-nav header-items">
       
     <li className="nav-item poppins">
        <Link

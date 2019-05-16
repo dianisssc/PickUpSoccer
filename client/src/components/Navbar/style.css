@@ -1,26 +1,38 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
   vertical-align: top;
+  
 }
 .coolFont{
 
   font-family: 'Play', sans-serif;
   
+  padding-left: 15px;
+
+
+  
+  }
+
+  .header-items{
+    display: flex;
+    align-items: center;
   }
   #li{
     color: whitesmoke;
   }
   #header{
     position: relative;
-    left: 20%;
+    left: 70%;
   }
   #headerSecondary{
     position: relative;
-    left: 23%;
-    opacity: 1.5;
+    left: 30%;
+    opacity: 5.5;
   }
   .ListBackground{
-    background: #191a1b
+    background: #191a1b;
+    display: flex;
+    justify-content: center;
   }
   .poppins{
   font-family: 'Poppins', sans-serif;}
