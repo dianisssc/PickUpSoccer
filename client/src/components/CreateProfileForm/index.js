@@ -61,7 +61,7 @@ function CreateProfileForm(props) {
       <select className="form-control" id="exampleFormControlSelect1"placeholder="Select One">
       <option>XL Soccer World Orlando</option>
       <option>OIS League</option>
-      <option>Revovler FC Orlando</option>
+      <option>HD Orlando</option>
       <option>Free Kick Orlando</option>
       <option>High Soccer Arena</option>
       </select>

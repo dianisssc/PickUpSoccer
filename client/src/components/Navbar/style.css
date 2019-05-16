@@ -17,13 +17,13 @@ nav.navbar.navbar-default {
   #headerSecondary{
     position: relative;
     left: 23%;
-    opacity: 0.5;
+    opacity: 1.5;
   }
-  .aListBackground{
+  .ListBackground{
     background: #191a1b
   }
   .poppins{
-  font-family: 'Poppins', sans-serif;}
+  font-family: 'Poppins', Verdana;}
   .font-size{
     font-size: xx-large;
   }

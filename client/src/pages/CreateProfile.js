@@ -258,7 +258,7 @@ class CreateProfile extends Component {
                                         <option>Select a Place</option>
                                         <option>XL Soccer World Orlando</option>
                                         <option>OIS League</option>
-                                        <option>Revovler FC Orlando</option>
+                                        <option>HD Orlando</option>
                                         <option>Free Kick Orlando</option>
                                         <option>High Soccer Arena</option>
                                        
