@@ -74,17 +74,17 @@ class Login extends Component {
                         <div class="form-group text-white">
                             <label for="exampleFormControlInput1">Player Profile Email Address</label>
                             <input type="email" 
-                                    class="form-control" 
+                                    class=".form-control" 
                                     id="exampleFormControlInput1" 
                                     name ="email"
                                     value={this.state.email}
                                     onChange={this.handleInputChange}
-                                    placeholder="yourcurrent@email.com" />
+                                    placeholder="current@email.com" />
                         </div>
                         <div class="form-group text-white">
                             <label for="exampleFormControlInput1">Enter Password</label>
                             <input type="password" 
-                                    class="form-control" 
+                                    class=".form-control" 
                                     name ="password"
                                     id="exampleFormControlInput1" 
                                     value= {this.state.password}
